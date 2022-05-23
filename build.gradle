@@ -68,7 +68,7 @@ dependencies {
 
     modCompileOnly "dev.architectury:architectury-fabric:${architectury_version}"
     modCompileOnly "software.bernie.geckolib:geckolib-fabric-${geckolib_version}"
-    modCompileOnly "curse.maven:impaled-478843:${impaled_version}"
+    modCompileOnly "com.github.Ladysnake:Impaled:${impaled_version}"
     modCompileOnly "com.terraformersmc:modmenu:${mod_menu_version}"
     modRuntimeOnly "com.terraformersmc:modmenu:${mod_menu_version}"
     modCompileOnly "com.github.CaffeineMC:sodium-fabric:${sodium_version}"
