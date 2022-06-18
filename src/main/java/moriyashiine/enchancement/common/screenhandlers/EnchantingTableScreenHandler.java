@@ -59,9 +59,7 @@ public class EnchantingTableScreenHandler extends ScreenHandler {
 					return true;
 				} else if (stack.isEnchantable()) {
 					for (Enchantment enchantment : Registry.ENCHANTMENT) {
-						if (isEnchantmentAllowed(enchantment, stack)) {
-							return true;
-						}
+						return true;
 					}
 				}
 				return false;
